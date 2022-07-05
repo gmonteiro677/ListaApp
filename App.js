@@ -19,7 +19,7 @@ import Pessoa from './src/Pessoa';
         <FlatList
         showsVerticalScrollIndicator={false}
         data={feed}
-        renderItem={ ({ item })  => <Pessoa data={item} /> }
+        renderItem={ ({ item })  => <Pessoa data={item} /> } 
         />
      
       </View>
